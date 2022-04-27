@@ -1,3 +1,11 @@
+body {
+    background-color: #1B1A34;
+    background-image: url('../assets/background.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 70%;
+}
+
 .container__form {
     display: flex;
     align-items: center;
