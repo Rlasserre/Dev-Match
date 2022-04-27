@@ -1,59 +1,59 @@
-.mb-sm {
+.mb__sm {
   margin-bottom: 5px;
 }
 
-.mb-md {
+.mb__md {
   margin-bottom: 10px;
 }
 
-.mb-lg {
+.mb__lg {
   margin-bottom: 15px;
 }
 
-.mt-sm {
+.mt__sm {
   margin-top: 5px;
 }
 
-.mt-md {
+.mt__md {
   margin-top: 10px;
 }
 
-.mt-lg {
+.mt__lg {
   margin-top: 15px;
 }
 
-.ml-sm {
+.ml__sm {
   margin-left: 5px;
 }
 
-.ml-md {
+.ml__md {
   margin-left: 10px;
 }
 
-.ml-lg {
+.ml__lg {
   margin-left: 15px;
 }
 
-.mx-sm {
+.mx__sm {
   margin: 0px 5px;
 }
 
-.mx-md {
+.mx__md {
   margin: 0px 10px;
 }
 
-.mx-lg {
+.mx__lg {
   margin: 0px 15px;
 }
 
-.my-sm {
+.my__sm {
   margin: 5px 0px;
 }
 
-.my-md {
+.my__md {
   margin: 10px 0px;
 }
 
-.my-lg {
+.my__lg {
   margin: 15px 0px;
 }

@@ -1,3 +1,11 @@
-.container-signIn {
+@import '../../Styles/forms.css';
+
+.form__sign-in {
+    justify-content: space-between;
+    width: 300px;
+    height: auto;
+}
+
+.container-form {
     height: 100vh;
 }

@@ -1,16 +1,16 @@
-.flex-column {
+.flex__column {
     display: flex;
     flex-direction: column;
 }
 
-.flex-row {
+.flex__row {
     display: flex;
 }
 
-.content-center {
+.content__center {
     justify-content: center;
 }
 
-.items-center {
+.items__center {
     align-items: center;
 }
