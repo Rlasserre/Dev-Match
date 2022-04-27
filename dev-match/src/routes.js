@@ -12,9 +12,9 @@ function AppRoutes() {
   return (
     <Router>
       <Routes>
-        <Route path='/' element={Main} />
-        <Route path='/sign-in' element={SignIn} />
-        <Route path='/sign-up' element={SignUp} />
+        <Route path='/' element={<Main />} />
+        <Route path='/sign-in' element={<SignIn />} />
+        <Route path='/sign-up' element={<SignUp />} />
       </Routes>
     </Router>
   )
