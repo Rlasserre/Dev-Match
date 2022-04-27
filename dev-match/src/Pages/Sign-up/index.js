@@ -2,7 +2,7 @@ import './styles.css';
 
 function SignUp() {
     return (
-        <div className="container-main">
+        <div className="container-signUp">
             <h1>Sign Up</h1>
         </div>
     );
