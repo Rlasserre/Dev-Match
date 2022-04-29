@@ -5,17 +5,17 @@ function SignIn() {
   return (
     <div className='container__form'>
       <form className='form form__sign-in '>
-        <div className='text-center mb-lg'>
+        <div className='text__center mb__lg'>
           <h1>Entrar</h1>
           <Link to="/sign-up">Cadastre-se</Link>
         </div>
         <div>
-          <div>
-            <label>E-mail</label>
+          <div className='flex__column'>
+            <label htmlFor='email'>E-mail</label>
             <input id='email' type='text' placeholder='Digite seu e-mail' />
           </div>
-          <div>
-            <label>Senha</label>
+          <div className='flex__column'>
+            <label htmlFor='password'>Senha</label>
             <input id='password' type='password' placeholder='Digite sua senha' />
           </div>
           <button className='btn__dark-blue'>Entrar</button>
