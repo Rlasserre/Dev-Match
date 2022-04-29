@@ -1,3 +1,15 @@
-.container-signUp {
+.form__sign-up {
+    justify-content: space-between;
     text-align: center;
+    height: auto;
+    width: 700px;
+}
+
+.body__sing-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body__sign-up div {
+    margin: 0px 10px;
 }

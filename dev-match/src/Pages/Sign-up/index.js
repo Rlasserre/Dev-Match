@@ -2,8 +2,31 @@ import './styles.css';
 
 function SignUp() {
     return (
-        <div className="container-signUp">
-            <h1>Sign Up</h1>
+        <div className='container__form'>
+            <form className='form form__sign-in '>
+                <div className='text-center mb-lg'>
+                    <h1>Entrar</h1>
+                    <Link to="/sign-up">Cadastre-se</Link>
+                </div>
+                <div>
+                    <div>
+                        <label>E-mail</label>
+                        <input id='email' type='text' placeholder='Digite seu e-mail' />
+                    </div>
+                    <div>
+                        <label>Senha</label>
+                        <input id='password' type='password' placeholder='Digite sua senha' />
+                    </div>
+                    <button className='btn__dark-blue'>Entrar</button>
+                    <div>
+                        <input type='checkbox' value='lembrar-me' name='remember' />
+                        <span htmlFor='remember'>Lembrar-me</span>
+                    </div>
+                </div>
+                <Link to='/recovery-password' className='my-lg'>Esqueceu sua senha?</Link>
+                <span className='light__label'>©2021 Todos os Direitos Reservados</span>
+            </form>
+
         </div>
     );
 }
