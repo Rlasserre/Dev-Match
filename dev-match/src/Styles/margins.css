@@ -34,6 +34,23 @@
   margin-left: 15px;
 }
 
+.mr__sm {
+  margin-right: 5px;
+}
+
+.mr__md {
+  margin-right: 10px;
+}
+
+.mr__lg {
+  margin-right: 15px;
+}
+
+.mr__xl {
+  margin-right: 25px;
+}
+
+
 .mx__sm {
   margin: 0px 5px;
 }
@@ -46,6 +63,10 @@
   margin: 0px 15px;
 }
 
+.mx__xl {
+  margin: 0px 25px;
+}
+
 .my__sm {
   margin: 5px 0px;
 }
@@ -56,4 +77,8 @@
 
 .my__lg {
   margin: 15px 0px;
+}
+
+.my__xl {
+  margin: 20px 0px;
 }

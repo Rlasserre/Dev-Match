@@ -25,7 +25,7 @@ function SignIn() {
           </div>
         </div>
         <Link to='/recovery-password' className='my-lg'>Esqueceu sua senha?</Link>
-        <span className='light__label'>©2021 Todos os Direitos Reservados</span>
+        <span className='ligth__label'>©2021 Todos os Direitos Reservados</span>
       </form>
 
     </div>

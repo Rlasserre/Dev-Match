@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 function SignUp() {
 	return (
 		<div className='container__form'>
-			<form className='form form__sign-up '>
+			<form className='form form__sign-up'>
 				<div className='text__center mb__lg'>
 					<h1>Cadastre-se</h1>
 					<Link to="/sign-in">Entrar</Link>
 				</div>
 				<div className='body__sing-up'>
 					<div>
-						<div className='flex__column'>
+						<div className='flex__column mr__xl'>
 							<label htmlFor='name'>Nome</label>
 							<input
 								id='name'
@@ -19,7 +19,7 @@ function SignUp() {
 								placeholder='Digite seu nome'
 							/>
 						</div>
-						<div className='flex__column'>
+						<div className='flex__column mr__xl'>
 							<label htmlFor='zipCode'>CEP</label>
 							<input
 								id='zipCode'
@@ -27,7 +27,7 @@ function SignUp() {
 								placeholder='Digite seu cep'
 							/>
 						</div>
-						<div className='flex__column'>
+						<div className='flex__column mr__xl'>
 							<label htmlFor='password'>Senha</label>
 							<input
 								id='password'
@@ -64,7 +64,7 @@ function SignUp() {
 					</div>
 				</div>
 				<button className='btn__dark-blue'>Cadastre-se</button>
-				<span className='light__label'>©2021 Todos os Direitos Reservados</span>
+				<span className='ligth__label'>©2021 Todos os Direitos Reservados</span>
 			</form>
 
 		</div>
