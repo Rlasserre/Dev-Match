@@ -24,17 +24,22 @@ body {
 }
 
 label {
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
   font-size: 1.8rem;
   font-weight: bold;
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 3.8rem;
 }
 
 input {
-  margin-bottom: 30px;
+  width: 30rem;
+  margin-bottom: 2rem;
+}
+
+span {
+  font-size: 1.6rem;
 }
 
 a {
@@ -42,5 +47,5 @@ a {
 }
 
 button {
-  margin-bottom: 30px;
+  margin-bottom: 1.5rem;
 }

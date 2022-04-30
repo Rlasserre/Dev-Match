@@ -1,5 +1,7 @@
 .btn__dark-blue {
     background-color: #1B1A34;
     color: white;
-    width: 325px;
+    flex-shrink: unset;
+    height: 4.8rem;
+    width: 32.5rem;
 }
